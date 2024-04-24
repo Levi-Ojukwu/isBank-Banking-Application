@@ -3,7 +3,7 @@ import "../../../App.css"
 
 export default function Header() {
     return (
-      <div className="flex items-center justify-between  p-5 bg-gray-100 ">
+      <div className=" hidden md:flex items-center justify-between  p-5 bg-gray-100 ">
       <img src="../images/logo21.png" className="w-40 h-50 cursor-pointer bg-blue-100 pl-2 pr-2 rounded" alt="" />
       <div className="flex gap-3">
 

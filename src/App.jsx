@@ -14,6 +14,7 @@ import Online from './pages/online';
 import Customer from './pages/customer';
 import Dashboard from './pages/dashboard';
 import Transfer from './pages/transfer';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,7 +31,7 @@ function App() {
           <Route path='/transfer' element={<Transfer />}/>
         </Routes>
       </BrowserRouter>
-      
+      <ToastContainer hideProgressBar={true} theme='colored' />
     </>
   )
 }
