@@ -3,6 +3,7 @@ import Logo from './components/Logo'
 import Balance from './components/Balance'
 import Details from './components/Details'
 import Footer from '../home/components/Footer'
+import Security from './components/Security'
 
 const Dashboard = () => {
   return (
@@ -11,6 +12,7 @@ const Dashboard = () => {
         <Balance />
         <Details />
         {/* <Footer /> */}
+        <Security />
     </>
   )
 }

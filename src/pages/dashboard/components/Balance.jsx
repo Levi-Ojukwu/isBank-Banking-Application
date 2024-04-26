@@ -1,4 +1,7 @@
+import { Icon } from '@chakra-ui/react'
 import React, { useState } from 'react'
+import { GoEyeClosed } from 'react-icons/go'
+import { RxEyeOpen } from 'react-icons/rx'
 
 const Balance = () => {
   const [showBalance, setShowBalance] = useState(false)
@@ -18,11 +21,11 @@ const Balance = () => {
                 <div className='bg-blue-200 p-3 pb-4 rounded-t-xl'>
                     <h2 className='text-left text-gray-800 text-sm sm:text-lg font-normal'>Total Balance</h2>
                 </div>
-                <div className='flex mt-5 items-center justify-between pr-5 sm:pr-10'>
-                    <p className='text-left text-xl sm:text-2xl flex ml-3 items-center gap-2 font-semibold'>US$ {showBalance ? <span className='text-base sm:text-xl font-medium'>9,980,000.00</span> : <span className='text-base sm:text-xl font-medium'>*****</span>}</p>
+                <div className='flex mt-2 items-center justify-between pr-5 sm:pr-10'>
+                    <p className='text-left text-white text-xl sm:text-2xl flex ml-3 items-center gap-2 font-semibold'>US$ {showBalance ? <span className='text-base sm:text-xl font-medium'>9,980,000.00</span> : <span className='text-base sm:text-xl font-medium'>********</span>}</p>
                     
                     <div>
-                        <button onClick={handleShowBalance} className='text-sm sm:text-base'>{!showBalance ? "Show balance" : "Hide balance"}</button>
+                        <p onClick={handleShowBalance} className='text-xs text-white p-1 bored-transparent sm:px-3 sm:py-2 sm:text-base'>{!showBalance ? <Icon as={RxEyeOpen} fontSize={"26px"} /> : <Icon as={GoEyeClosed} fontSize={"26px"} />}</p>
                     </div>
                 </div>
             </div>

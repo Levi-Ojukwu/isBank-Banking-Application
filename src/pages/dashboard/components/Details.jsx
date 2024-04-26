@@ -13,16 +13,20 @@ const Details = () => {
     navigate("/banking")
   }
 
+  
+
   return (
     <>
         <div className='sm:mx-16 lg:mx-60 my-5'>
-            <div className='ml-5'>
+            <div className='divide-y w-[88%]'>
+            <div className='ml-5 pb-4'>
                 <p className='text-blue-900 text-left sm:text-xl'>{AccNumber} - <span className='text-green-600 font-semibold'>ACTIVE</span></p>
             </div>
 
-            <div className='ml-5 mt-4'>
+            <div className='ml-5 pt-2'>
                 <p className='text-blue-900 uppercase text-left sm:text-xl'>{AccName}</p>
-                <p className='text-left text-xl sm:text-2xl flex mt-2 items-center gap-2 font-semibold text-gray-600'>US$<span className='text-base sm:text-xl font-medium'>9,980,000.00</span></p>
+                {/* <p className='text-left text-xl sm:text-2xl flex mt-2 items-center gap-2 font-semibold text-gray-600'>US$<span className='text-base sm:text-xl font-medium'>9,980,000.00</span></p> */}
+            </div>
             </div>
 
             <div className='relative flex gap-2 mt-3'>
