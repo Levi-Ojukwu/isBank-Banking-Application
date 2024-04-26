@@ -8,7 +8,7 @@ const Hero = () => {
           <div className=" ">
               <h1 className="text-blue-900 text-3xl md:text-5xl text-left font-semibold">Welcome To The Largest E-Banking System</h1>
               <div className="mt-10">
-                <Link to="/banking" className="bg-blue-800 font-bold rounded text-white px-4 py-2 hover:text-blue-900 hover:bg-white transition duration-300 border hover:border-blue-500">
+                <Link to="/banking" className="bg-blue-800 font-bold rounded text-white px-4 py-2 hover:text-white hover:bg-blue-500 transition duration-300 border hover:border-blue-300">
                     Online Banking
                 </Link>
               </div>

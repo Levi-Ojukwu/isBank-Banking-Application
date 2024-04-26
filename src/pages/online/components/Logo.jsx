@@ -16,7 +16,7 @@ const Logo = () => {
     localStorage.removeItem("AccNumber")
     localStorage.removeItem("AccName")
 
-    navigate("/banking")
+    navigate("/")
   }
 
   return (
@@ -26,7 +26,7 @@ const Logo = () => {
           <Link to="/">
             <img src="../images/dashboard-logo.jpeg" className='rounded-xl w-16 h-16 md:w-32 md:h-32' alt="" />
             </Link>
-            <h2 className='text-blue-900 text-sm md:text-xl font-semibold'>TRANSFER</h2>
+            <h2 className='text-blue-900 text-sm md:text-xl font-semibold'>ONLINE BANKING</h2>
             {/* </div> */}
             <Flex
                 w={"100vw"}

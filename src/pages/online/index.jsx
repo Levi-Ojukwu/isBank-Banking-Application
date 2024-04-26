@@ -1,11 +1,13 @@
 import React from 'react'
-import Header from '../home/components/Header'
+// import Header from '../home/components/Header'
 import Aside from './components/Aside'
+import Logo from '../online/components/Logo'
 
 const Online = () => {
   return (
     <>
-    <Header />
+    <Logo />
+    {/* <Header />   */}
     <Aside />
 
         <div>

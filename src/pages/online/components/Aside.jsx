@@ -42,11 +42,11 @@ function Aside() {
             </div>
             <form onSubmit={handleSubmit}>
                 <div className='flex gap-4 flex-col'>
-                <input type="text" value={accNumber} onChange={handleAccNumber} className='bg-white rounded border p-2 text-gray-500' placeholder='Enter 16 digit account number' />
+                <input type="text" value={accNumber} onChange={handleAccNumber} className='bg-white rounded border p-2 text-gray-500' placeholder='Enter 14 digit account number' />
                 <input type="text" value={accName} onChange={handleAccName} className='bg-white rounded border  p-2 text-gray-500' placeholder='Enter your account name' />
                 </div>
                 <div className='mt-5 text-right'>
-                    <button type='submit' className='bg-blue-900 text-white font-semibold'>Login</button>
+                    <button type='submit' className='bg-blue-900 px-4 py-2 text-white font-semibold'>Login</button>
                 </div>
             </form>
 
