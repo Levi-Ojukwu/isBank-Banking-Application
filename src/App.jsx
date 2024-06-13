@@ -24,14 +24,14 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          {/* <Route path='/' element={<Home/>} />
+          <Route path='/' element={<Home/>} />
           <Route path='/about' element={<About />} />
           <Route path='/banking' element={<Online />} />
           <Route path='/customer' element={<Customer />} />
           <Route path='/dashboard' element={<Dashboard />}/>
-          <Route path='/transfer' element={<Transfer />}/> */}
+          <Route path='/transfer' element={<Transfer />}/>
 
-          <Route path='/notFound' element={<Notfound />}/>
+          {/* <Route path='/notFound' element={<Notfound />}/> */}
         </Routes>
       </BrowserRouter>
       <ToastContainer hideProgressBar={true} theme='colored' />
